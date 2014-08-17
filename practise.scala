@@ -56,7 +56,6 @@ object Say {
     arr(2) = "-ABC"
     for(i <- 0 to arr.length - 1){
       println(arr(i))
-      (x:Int, y:Int) => x * y
     }
   }
 }
